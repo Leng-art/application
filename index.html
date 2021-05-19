@@ -4,7 +4,7 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Todo</title>
+<title>Doit</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,12 +21,16 @@
     <!-- Counter -->
     <div class="todo-counter">
       <div class="remaining">
-        <img class="remaining-img" src= "./image/remaining.png" alt="remaining" />
-        <span>6</span>
+        
+        <span>リスト</span>
       </div>
       <div class="completed">
         <span>4</span>
         <img class="completed-img" src= "./image/completed.png" alt="completed" />
+      </div>
+      <div class="edit">
+        <span></span>
+        
       </div>
     </div>
 
@@ -35,37 +39,44 @@
       <ul>
         <li class="todo">
           <span class="todo-id">1</span>
-          <span class="todo-title">荷物を受け取る</span>
+          <span class="todo-text">10:01-10:30</span>
+          <br><span class="todo-title">荷物を受け取る</span></br>
           <img class="todo-delete" src= "./image/delete.png" alt="deleteButton" />
           <img class="todo-complete" src= "./image/completed.png" alt="completeButton" />
+          
         </li>
         <li class="todo">
           <span class="todo-id">2</span>
-          <span class="todo-title">冬服をクリーニングに出す</span>
+          <span class="todo-text">11:01-11:30</span>
+          <br><span class="todo-title">冬服をクリーニングに出す</span></br>
           <img class="todo-delete" src= "./image/delete.png" alt="deleteButton" />
           <img class="todo-complete" src= "./image/completed.png" alt="completeButton" />
         </li>
         <li class="todo">
           <span class="todo-id">3</span>
-          <span class="todo-title">猫の餌を買う</span>
+          <span class="todo-text">13:00-13:30</span>
+          <br><span class="todo-title">猫の餌を買う</span></br>
           <img class="todo-delete" src= "./image/delete.png" alt="deleteButton" />
           <img class="todo-complete" src= "./image/completed.png" alt="completeButton" />
         </li>
         <li class="todo">
           <span class="todo-id">4</span>
-          <span class="todo-title">ライブチケットを予約する</span>
+          <span class="todo-text">14:01-14:30</span>
+          <br><span class="todo-title">ライブチケットを予約する</span></br>
           <img class="todo-delete" src= "./image/delete.png" alt="deleteButton" />
           <img class="todo-complete" src= "./image/completed.png" alt="completeButton" />
         </li>
         <li class="todo">
           <span class="todo-id">5</span>
-          <span class="todo-title">家賃を入金する</span>
+          <span class="todo-text">14:15-14:30</span>
+          <br><span class="todo-title">家賃を入金する</span></br>
           <img class="todo-delete" src= "./image/delete.png" alt="deleteButton" />
           <img class="todo-complete" src= "./image/completed.png" alt="completeButton" />
         </li>
         <li class="todo">
           <span class="todo-id">6</span>
-          <span class="todo-title">React勉強会に申し込む</span>
+          <span class="todo-text">15:01-15:30</span>
+          <br><span class="todo-title">React勉強会に申し込む</span></br>
           <img class="todo-delete" src= "./image/delete.png" alt="deleteButton" />
           <img class="todo-complete" src= "./image/completed.png" alt="completeButton" />
         </li>
@@ -75,8 +86,8 @@
     <!-- Form -->
     <div>
       <form class="todo-form">
-        <input class="todo-input" type="text" placeholder="To Do 内容を入力" />
-        <input class="todo-submit-button" type="submit" value="追加" />
+       
+        <image class="add" src="./image/add.png" alt="add" /></image>
       </form>
     </div>
 
