@@ -22,21 +22,32 @@ body {
 
 }
 
+.time{
+ margin: 50px;
+}
+
 .header-logo {
   width: auto;
-  height: 70px;
-  margin: 20px auto;
+  height: 130px;
+  margin: 30px auto;
   float: left;
 }
 
+.h1 {
+  
+  color: #458DD5;
+  font-size: 300%;
+  font-weight: bold;
+  margin: 10px;
+}
 
 /* Main */
 .todo-page {
-  width: 60%;
+  width: 80%;
   height: auto;
   background-color: #fff;
-  margin: 32px auto;
-  padding-bottom: 32px;
+  margin: 0px auto;
+  padding-bottom: 80px;
 }
 
 
@@ -65,24 +76,24 @@ body {
 .completed-img {
   float: right;
   width: auto;
-  height: 24px;
+  height: 60px;
   margin: 8px 8px 0px 0px;
 }
 
 .completed span {
   float: right;
   color: #80DEEA;
-  font-size: 24px;
+  font-size: 55px;
   font-weight: bold;
-  margin: 6px 0 0 0;
+  margin: 1px 0 0 0;
 }
 
 
 /* List */
 .todo-list {
   width: auto;
-  padding: 0px 16px;
-  margin-bottom: 16px;
+  padding: 10px 34px;
+  margin-bottom: 11px;
 }
 
 .todo-list ul {
@@ -91,25 +102,25 @@ body {
 }
 
 .todo {
-  height: 85px;
+  height: 150px;
   list-style: none;
   background-color: #ECEFF1;
   margin-bottom: 8px;
   vertical-align: middle;
-  line-height: 20px;
+  line-height: 42px;
 }
 
 .todo-id {
   float: left;
-  font-size: 16px;
+  font-size: 34px;
   font-weight: bold;
-  color: #455A64;
-  margin-left: 8px;
+  color: #9b9c31;
+  margin-left: 11px;
 }
 
 .todo-text {
   float: left;
-  font-size: 22px;
+  font-size: 50px;
   font-weight: bold;
   color: #d8745b;
   margin-left: 9px;
@@ -117,7 +128,7 @@ body {
 
 .todo-title {
   float: left;
-  font-size: 16px;
+  font-size: 40px;
   font-weight: bold;
   color: #455A64;
   margin-left: 25px;
@@ -126,7 +137,7 @@ body {
 .todo-complete {
   float: right;
   width: auto;
-  height: 24px;
+  height: 60px;
   padding: 12px;
   cursor: pointer;
 }
@@ -134,7 +145,7 @@ body {
 .todo-delete {
   float: right;
   width: auto;
-  height: 24px;
+  height: 60px;
   padding: 12px;
   cursor: pointer;
 }
@@ -175,9 +186,10 @@ body {
 .add {
   float: right;
   width: auto;
-  height: 24px;
+  height: 60px;
   padding: 12px;
   cursor: pointer;
+  color: #E05D5D;
 }
 
 .todo-submit-button:hover {
